@@ -1,0 +1,43 @@
+.header-banner {
+    padding: 0%;
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        video {
+            min-width: 100%;
+            min-height: 100%;
+            margin-top: -9%;
+        }
+    }
+    .navbar {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0));
+        .navbar-nav {
+            a {
+                color: white;
+                font-weight: 500;
+            }
+            .nav-link {
+                padding: 1.5rem 2rem;
+                &:hover {
+                    color: white;
+                    border-bottom: 3px solid white;
+                }
+            }
+        }
+        .nav-download {
+            a {
+                background: rgb(0, 148, 216);
+                display: inline-block;
+                padding: 6% 20%;
+                border-radius: 50rem;
+                text-decoration: none;
+                color: white;
+                font-weight: 500;
+            }
+        }
+    }
+}
