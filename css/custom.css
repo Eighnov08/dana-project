@@ -43,4 +43,11 @@
 .bg-about {
   background: linear-gradient(to right, #2bc1f6, #138ee9); }
 
+.img_con iframe {
+  height: 140%;
+  width: 140%;
+  left: -20%;
+  top: -20%;
+  position: absolute; }
+
 /*# sourceMappingURL=custom.css.map */

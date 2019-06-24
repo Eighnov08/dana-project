@@ -61,3 +61,11 @@
 .bg-about {
     background: linear-gradient(to right, rgba(43, 193, 246, 1), rgba(19, 142, 233, 1));
 }
+
+.img_con iframe {
+    height: 140%;
+    width: 140%;
+    left: -20%;
+    top: -20%;
+    position: absolute;
+}
