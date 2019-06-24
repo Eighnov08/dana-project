@@ -1,23 +1,9 @@
 .header-banner {
+  background: url(../images/cover-img.jpg) no-repeat center top;
+  background-size: 100%;
   padding: 0%; }
-  .header-banner .video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden; }
-    .header-banner .video-container video {
-      min-width: 100%;
-      min-height: 100%;
-      margin-top: -9%; }
   .header-banner .rgba {
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+    background: rgba(0, 0, 0, 0.5); }
   .header-banner .navbar {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0)); }
     .header-banner .navbar .navbar-nav a {
@@ -37,17 +23,8 @@
       text-decoration: none;
       color: white;
       font-weight: 500; }
-  .header-banner .container .row .content-banner {
-    margin-top: 11%; }
 
 .bg-about {
   background: linear-gradient(to right, #2bc1f6, #138ee9); }
-
-.img_con iframe {
-  height: 140%;
-  width: 140%;
-  left: -20%;
-  top: -20%;
-  position: absolute; }
 
 /*# sourceMappingURL=custom.css.map */
