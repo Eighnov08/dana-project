@@ -37,5 +37,10 @@
       text-decoration: none;
       color: white;
       font-weight: 500; }
+  .header-banner .container .row .content-banner {
+    margin-top: 11%; }
+
+.bg-about {
+  background: linear-gradient(to right, #2bc1f6, #138ee9); }
 
 /*# sourceMappingURL=custom.css.map */
