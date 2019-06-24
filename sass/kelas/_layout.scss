@@ -13,6 +13,14 @@
             margin-top: -9%;
         }
     }
+    .rgba {
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
     .navbar {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0));
         .navbar-nav {
@@ -22,6 +30,7 @@
             }
             .nav-link {
                 padding: 1.5rem 1.5rem;
+                border-bottom: 3px solid transparent;
                 &:hover {
                     color: white;
                     border-bottom: 3px solid white;
