@@ -1,41 +1,94 @@
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
-    min-height: 25rem;
+    height: 85vh;
+    min-height: 50rem;
     width: 100%;
     overflow: hidden;
-}
-
-header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-    position: relative;
-    z-index: 2;
-}
-
-header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
+    video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .content-nav {
+        position: relative;
+        z-index: 2;
+        padding: 0;
+        .navbar {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0));
+            .navbar-nav {
+                a {
+                    color: white;
+                    font-weight: 500;
+                }
+                .nav-link {
+                    padding: 1.5rem 1.5rem;
+                    border-bottom: 3px solid transparent;
+                    &:hover {
+                        color: white;
+                        border-bottom: 3px solid white;
+                    }
+                }
+            }
+            .nav-download {
+                a {
+                    background: rgb(0, 148, 216);
+                    display: inline-block;
+                    padding: 5% 15%;
+                    border-radius: 50rem;
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.5;
+        z-index: 1;
+    }
+    .content-banner {
+        color: white;
+        position: relative;
+        z-index: 2;
+        .img-hp {
+            margin-top: 10%;
+        }
+        .content-banner-1 {
+            margin-top: 15%;
+            padding: 0;
+            h1 {
+                font-size: 350%;
+                font-weight: 700;
+            }
+            .gantidompet {
+                font-size: 400%;
+                font-weight: 700;
+            }
+            img {
+                width: 30%;
+                margin-top: 10%;
+                margin-right: 5%;
+                border: 1px solid white;
+                border-radius: 5px;
+            }
+        }
+    }
 }
 
 @media (pointer: coarse) and (hover: none) {
@@ -45,4 +98,8 @@ header .overlay {
     header video {
         display: none;
     }
+}
+
+.bg-about {
+    background: linear-gradient(to right, rgba(43, 193, 246, 1), rgba(19, 142, 233, 1));
 }
