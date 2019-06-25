@@ -1,3 +1,12 @@
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+        display: none;
+    }
+}
+
 header {
     position: relative;
     background-color: black;
@@ -73,12 +82,10 @@ header {
             margin-top: 15%;
             padding: 0;
             h1 {
-                font-size: 350%;
-                font-weight: 700;
+                @extend %header-font-1;
             }
             .gantidompet {
-                font-size: 400%;
-                font-weight: 700;
+                @extend %header-font-2;
             }
             img {
                 width: 30%;
@@ -91,15 +98,19 @@ header {
     }
 }
 
-@media (pointer: coarse) and (hover: none) {
-    header {
-        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-    }
-    header video {
-        display: none;
-    }
-}
-
 .bg-about {
-    background: linear-gradient(to right, rgba(43, 193, 246, 1), rgba(19, 142, 233, 1));
+    color: white;
+    @extend %background-linear;
+    .judul-content {
+        @extend %content-font;
+    }
+    a {
+        @extend %button-a;
+        &:hover {
+            background: $bg-hover-button;
+        }
+    }
+    p {
+        padding: 2% 0%;
+    }
 }

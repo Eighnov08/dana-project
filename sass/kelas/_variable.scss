@@ -1,0 +1,30 @@
+$bg-hover-button: rgb(19, 142, 233);
+%header-font-1 {
+    font-size: 350%;
+    font-weight: 700;
+}
+
+%header-font-2 {
+    font-size: 400%;
+    font-weight: 700;
+}
+
+%content-font {
+    font-size: 300%;
+    font-weight: 700;
+}
+
+%background-linear {
+    background: linear-gradient(to right, rgba(43, 193, 246, 1), rgba(19, 142, 233, 1));
+}
+
+%button-a {
+    text-decoration: none;
+    color: white;
+    padding: 1% 6%;
+    border-radius: 50rem;
+    background: linear-gradient(to right, rgba(43, 193, 246, 1), rgba(19, 142, 233, 1));
+    i {
+        color: white;
+    }
+}

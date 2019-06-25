@@ -1,3 +1,33 @@
+header .content-banner .content-banner-1 h1 {
+  font-size: 350%;
+  font-weight: 700; }
+
+header .content-banner .content-banner-1 .gantidompet {
+  font-size: 400%;
+  font-weight: 700; }
+
+.bg-about .judul-content {
+  font-size: 300%;
+  font-weight: 700; }
+
+.bg-about {
+  background: linear-gradient(to right, #2bc1f6, #138ee9); }
+
+.bg-about a {
+  text-decoration: none;
+  color: white;
+  padding: 1% 6%;
+  border-radius: 50rem;
+  background: linear-gradient(to right, #2bc1f6, #138ee9); }
+  .bg-about a i {
+    color: white; }
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll; }
+
+  header video {
+    display: none; } }
 header {
   position: relative;
   background-color: black;
@@ -59,12 +89,6 @@ header {
     header .content-banner .content-banner-1 {
       margin-top: 15%;
       padding: 0; }
-      header .content-banner .content-banner-1 h1 {
-        font-size: 350%;
-        font-weight: 700; }
-      header .content-banner .content-banner-1 .gantidompet {
-        font-size: 400%;
-        font-weight: 700; }
       header .content-banner .content-banner-1 img {
         width: 30%;
         margin-top: 10%;
@@ -72,13 +96,11 @@ header {
         border: 1px solid white;
         border-radius: 5px; }
 
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll; }
-
-  header video {
-    display: none; } }
 .bg-about {
-  background: linear-gradient(to right, #2bc1f6, #138ee9); }
+  color: white; }
+  .bg-about a:hover {
+    background: #138ee9; }
+  .bg-about p {
+    padding: 2% 0%; }
 
 /*# sourceMappingURL=custom.css.map */
