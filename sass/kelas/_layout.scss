@@ -114,3 +114,21 @@ header {
         padding: 2% 0%;
     }
 }
+
+.transaksi-aman {
+    img {
+        padding-top: 8%;
+    }
+    .judul-content {
+        @extend %content-font;
+    }
+    hr {
+        display: block;
+        width: 8%;
+        height: 3%;
+        background-color: rgb(19, 142, 233);
+    }
+    h4 {
+        padding: 8% 0%;
+    }
+}

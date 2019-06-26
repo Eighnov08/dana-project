@@ -6,8 +6,8 @@ header .content-banner .content-banner-1 .gantidompet {
   font-size: 400%;
   font-weight: 700; }
 
-.bg-about .judul-content {
-  font-size: 300%;
+.bg-about .judul-content, .transaksi-aman .judul-content {
+  font-size: 280%;
   font-weight: 700; }
 
 .bg-about {
@@ -102,5 +102,15 @@ header {
     background: #138ee9; }
   .bg-about p {
     padding: 2% 0%; }
+
+.transaksi-aman img {
+  padding-top: 8%; }
+.transaksi-aman hr {
+  display: block;
+  width: 8%;
+  height: 3%;
+  background-color: #138ee9; }
+.transaksi-aman h4 {
+  padding: 8% 0%; }
 
 /*# sourceMappingURL=custom.css.map */
