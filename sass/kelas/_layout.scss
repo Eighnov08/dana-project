@@ -98,12 +98,20 @@ header {
     }
 }
 
+hr {
+    display: block;
+    width: 8%;
+    height: 3%;
+    background-color: rgb(19, 142, 233);
+}
+
+.judul-content {
+    @extend %content-font;
+}
+
 .bg-about {
     color: white;
     @extend %background-linear;
-    .judul-content {
-        @extend %content-font;
-    }
     a {
         @extend %button-a;
         &:hover {
@@ -122,13 +130,42 @@ header {
     .judul-content {
         @extend %content-font;
     }
-    hr {
-        display: block;
-        width: 8%;
-        height: 3%;
-        background-color: rgb(19, 142, 233);
-    }
     h4 {
         padding: 8% 0%;
+    }
+}
+
+.keamanan {
+    color: white;
+    @extend %background-linear;
+    .phone {
+        background: url(../images/circle.png) no-repeat center;
+        background-size: 75%;
+    }
+    img {
+        width: 60%;
+        padding: 5% 0%;
+    }
+    h4 {
+        font-weight: 700;
+    }
+    .aman-1 {
+        padding-top: 35%;
+    }
+    .aman-2 {
+        padding-top: 75%;
+    }
+}
+
+.carousel-indicators {
+    bottom: -57px;
+    li {
+        background-color: rgb(19, 142, 233);
+    }
+}
+
+.carousel-inner {
+    img {
+        border-radius: 10px;
     }
 }
