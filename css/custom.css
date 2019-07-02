@@ -129,12 +129,11 @@ hr {
   .keamanan .aman-2 {
     padding-top: 75%; }
 
-.carousel-indicators {
+.cerita-teman-dana .carousel-indicators {
   bottom: -57px; }
-  .carousel-indicators li {
+  .cerita-teman-dana .carousel-indicators li {
     background-color: #138ee9; }
-
-.carousel-inner img {
+.cerita-teman-dana .carousel-inner img {
   border-radius: 10px; }
 
 /*# sourceMappingURL=custom.css.map */

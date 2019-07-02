@@ -157,15 +157,16 @@ hr {
     }
 }
 
-.carousel-indicators {
-    bottom: -57px;
-    li {
-        background-color: rgb(19, 142, 233);
+.cerita-teman-dana {
+    .carousel-indicators {
+        bottom: -57px;
+        li {
+            background-color: rgb(19, 142, 233);
+        }
     }
-}
-
-.carousel-inner {
-    img {
-        border-radius: 10px;
+    .carousel-inner {
+        img {
+            border-radius: 10px;
+        }
     }
 }
