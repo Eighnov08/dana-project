@@ -170,3 +170,34 @@ hr {
         }
     }
 }
+
+.promo {
+    .carousel-item {
+        .card {
+            border-radius: 1rem;
+            .card-img-top {
+                border-top-left-radius: 1rem !important;
+                border-top-right-radius: 1rem !important;
+            }
+        }
+        h5 {
+            padding-bottom: 20%;
+        }
+        p {
+            position: absolute;
+            bottom: 5px;
+        }
+        a {
+            padding: 2% 2%;
+            font-size: 80%;
+            font-weight: 700;
+            @extend %button-a;
+            &:hover {
+                background: $bg-hover-button;
+            }
+            position: absolute;
+            bottom: 12px;
+            right: 10px;
+        }
+    }
+}

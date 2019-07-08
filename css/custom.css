@@ -13,13 +13,13 @@ header .content-banner .content-banner-1 .gantidompet {
 .bg-about, .keamanan {
   background: linear-gradient(to right, #2bc1f6, #138ee9); }
 
-.bg-about a {
+.bg-about a, .promo .carousel-item a {
   text-decoration: none;
   color: white;
   padding: 1% 6%;
   border-radius: 50rem;
   background: linear-gradient(to right, #2bc1f6, #138ee9); }
-  .bg-about a i {
+  .bg-about a i, .promo .carousel-item a i {
     color: white; }
 
 @media (pointer: coarse) and (hover: none) {
@@ -135,5 +135,25 @@ hr {
     background-color: #138ee9; }
 .cerita-teman-dana .carousel-inner img {
   border-radius: 10px; }
+
+.promo .carousel-item .card {
+  border-radius: 1rem; }
+  .promo .carousel-item .card .card-img-top {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important; }
+.promo .carousel-item h5 {
+  padding-bottom: 20%; }
+.promo .carousel-item p {
+  position: absolute;
+  bottom: 5px; }
+.promo .carousel-item a {
+  padding: 2% 2%;
+  font-size: 80%;
+  font-weight: 700;
+  position: absolute;
+  bottom: 12px;
+  right: 10px; }
+  .promo .carousel-item a:hover {
+    background: #138ee9; }
 
 /*# sourceMappingURL=custom.css.map */
