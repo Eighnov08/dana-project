@@ -10,16 +10,16 @@ header .content-banner .content-banner-1 .gantidompet {
   font-size: 280%;
   font-weight: 700; }
 
-.bg-about, .keamanan {
+.bg-about, .keamanan, .footer {
   background: linear-gradient(to right, #2bc1f6, #138ee9); }
 
-.bg-about a, .promo .carousel-item a {
+.bg-about a, .promo .carousel-item a, .promo .lengkap a {
   text-decoration: none;
   color: white;
   padding: 1% 6%;
   border-radius: 50rem;
   background: linear-gradient(to right, #2bc1f6, #138ee9); }
-  .bg-about a i, .promo .carousel-item a i {
+  .bg-about a i, .promo .carousel-item a i, .promo .lengkap a i {
     color: white; }
 
 @media (pointer: coarse) and (hover: none) {
@@ -212,5 +212,17 @@ hr {
   right: 10px; }
   .promo .carousel-item a:hover {
     background: #138ee9; }
+.promo .lengkap a {
+  padding: 8px 20px; }
+  .promo .lengkap a:hover {
+    background: #138ee9; }
+
+.merchant a img {
+  width: 100px;
+  margin: 2% 3%; }
+
+.footer h1 {
+  padding-top: 10%;
+  padding-bottom: 10%; }
 
 /*# sourceMappingURL=custom.css.map */

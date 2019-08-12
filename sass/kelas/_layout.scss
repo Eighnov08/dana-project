@@ -274,4 +274,30 @@ hr {
             right: 10px;
         }
     }
+    .lengkap {
+        a {
+            @extend %button-a;
+            padding: 8px 20px;
+            &:hover {
+                background: $bg-hover-button;
+            }
+        }
+    }
+}
+
+.merchant {
+    a {
+        img {
+            width: 100px;
+            margin: 2% 3%;
+        }
+    }
+}
+
+.footer {
+    @extend %background-linear;
+    h1 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
 }
